@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+    <title>ООО "ЭСМА"</title>
+    <style>
+        /* Add CSS styles for the hidden paragraphs and images */
+        body {
+            background-color: #000; /* Set black background color for the body */
+            color: #fff; /* Set text color to white */
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
+        }
+
+        /* Add style for the white background section */
+        .white-background {
+            background-color: #fff;
+            color: #000; /* Set text color to black */
+            padding: 20px; /* Adjust the padding as needed */
+        }
+
+        .gray-background {
+            background-color: #e8e8e8;
+            color: #000; /* Set text color to black */
+            padding: 20px; /* Adjust the padding as needed */
+        }
+
+        /* Style for the image grid */
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* 3 equal-width columns */
+            gap: 10px; /* Gap between images */
+            padding-left: 200px; /* Add left padding */
+        }
+
+        /* Style for the individual images */
+        .grid-image {
+            width: 80%; /* Ensure images fill their grid cells */
+            height: auto;
+        }
+
+        .vacancy-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* 3 equal-width columns */
+            gap: 10px; /* Gap between images */
+            padding-left: 70px; /* Add left padding */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="index.html">Добро Пожаловать</a>
+        <a href="about.html">О нас</a>
+        <a href="services.html">Наши Услуги</a>
+        <a href="projects.html">Проекты</a>
+        <a href="jobs.html">Вакансии</a>
+        <a href="letters.html">Рекомендательные письма</a>
+        <a href="doc.html">Документы и лицензии</a>
+        <a href="rec.html">Реквизиты</a>
+        <a href="contact.html">Контакты</a>
+    </div>
+    <video id="background-video" autoplay loop muted>
+        <source src="sea.mp4" type="video/mp4"> <!-- Add the path to your video file -->
+        Your browser does not support the video tag.
+    </video>
+    <div id="welcome">
+        <br>
+        <br>
+        <h1>ООО "ЭСМА"</h1>
+        <p class="hello">Ваши корабли, наше качество.</p>
+        <br>
+        <p class="description">Компания 'ЭСМА' - ваш партнер в морской инженерии и строительстве на кораблях с 2008 года. Мы специализируемся на предоставлении разнообразных инженерных и строительных услуг для судов и кораблей. Наша команда высококвалифицированных специалистов готова обеспечить безопасность, надежность и качество для вашего морского бизнеса.</p>
+        <a href="https://vk.com/club223293342" target="_blank" class="vk-button">
+            <img src="vk-icon.png" alt="VKontakte Icon">
+        </a>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </div>
+    <!-- White -->
+    <div id="ser" class="white-background">
+        <h2 style="color: #000">Наши партнеры</h2>
+        <br>
+        <div class="partner-buttons">
+            <a href="partner.html" class="partner-button rounded-container">Партнер 1</a>
+            <a href="partner.html" class="partner-button rounded-container">Партнер 2</a>
+            <a href="partner.html" class="partner-button rounded-container">Партнер 3</a>
+            <a href="partner.html" class="partner-button rounded-container">Партнер 4</a>
+            <a href="partner.html" class="partner-button rounded-container">Партнер 5</a>
+            <a href="partner.html" class="partner-button rounded-container">Партнер 6</a>
+            <a href="partner.html" class="partner-button rounded-container">Партнер 7</a>
+            <a href="partner.html" class="partner-button rounded-container">Партнер 8</a>
+        </div>
+        <br>
+        <br>
+        <a href="projects.html" class="projects-button rounded-container">Все проекты</a>
+        <br>
+        <br>
+    </div>
+    <div id="vac" class="gray-background">
+        <h2 style="color: #000">Вакансии</h2>
+        <br>
+        <div class="image-grid">
+            <img src="electro.jpg" alt="Electro Image" class="grid-image">
+            <img src="svarka.jpg" alt="Svarka Image" class="grid-image">
+            <img src="sbor.jpg" alt="Sbor Image" class="grid-image">
+        </div>
+        <!-- Containers with headings and paragraphs -->
+        <div class="vacancy-grid">
+            <div class="vacancy-container">
+                <h3>Электромонтажник</h3>
+                <p style="font-size: 20px">Электромонтажник судовой 3-4 разряд.</p>
+                <br>
+                <p style="font-size: 20px">от 130 000 Р</p>
+            </div>
+
+            <div class="vacancy-container">
+                <h3>Сварщик</h3>
+                <p style="font-size: 20px">Электрогазосварщик на рд и П/А (судостроение)</p>
+                <br>
+                <p style="font-size: 20px">от 150 000 Р</p>
+            </div>
+
+            <div class="vacancy-container">
+                <h3>Сборщик</h3>
+                <p style="font-size: 20px">Сборщик КМС (4 разряд, вахта с проживанием)</p>
+                <br>
+                <p style="font-size: 20px">120 000 - 160 000 Р</p>
+            </div>
+            <br>
+            <br>
+        </div>
+        <a href="jobs.html" class="jobs-button rounded-container">Все вакансии</a>
+        <br>
+        <br>
+    </div>
+    <div class="white-background">
+    <h2 style="color: #000">Контакты</h2>
+    <div class="contact-container">
+        <div class="contact-info">
+            <h3 style="font-size: 30px">Юрий Алексеевич Ритько</h3>
+            <p style="font-size: 30px">8 (909) 553-27-02</p>
+        </div>
+        <div class="contact-info">
+            <h3 style="font-size: 30px">Данила Витальевич Флуераш</h3>
+            <p style="font-size: 30px">8 (909) 554-38-56</p>
+        </div>
+    </div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1714.0396463690047!2d39.76768147811937!3d64.55760437755397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4418426461c34a75%3A0x28b8b0a409d30394!2z0J_QtdGB0YfQsNC90YvQuSDQv9GALdC0LCA40LAsINCh0LXQstC10YDQvtC00LLQuNC90YHQuiwg0JDRgNGF0LDQvdCz0LXQu9GM0YHQutCw0Y8g0L7QsdC7Liwg0KDQvtGB0YHQuNGPLCAxNjQ1MTQ!5e0!3m2!1sru!2ses!4v1699045005448!5m2!1sru!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <p style="font-size: 20px">Адрес: 164514, Архангельская обл., Северодвинск г, проезд Песчаный, дом 8А</p>
+    <br>
+    <br>
+</div>
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

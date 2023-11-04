@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+    <title>Вакансии - ООО "ЭСМА"</title>
+    <style>
+        .gray-background {
+            background-color: #e8e8e8;
+            color: #000; /* Set text color to black */
+            padding: 20px; /* Adjust the padding as needed */
+        }
+
+        /* Style for the image grid */
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* 3 equal-width columns */
+            gap: 10px; /* Gap between images */
+            padding-left: 150px; /* Add left padding */
+        }
+
+        /* Style for the individual images */
+        .grid-image {
+            width: 80%; /* Ensure images fill their grid cells */
+            height: auto;
+        }
+
+        .vacancy-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* 3 equal-width columns */
+            gap: 10px; /* Gap between images */
+            padding-left: 70px; /* Add left padding */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="index.html">Добро Пожаловать</a>
+        <a href="about.html">О нас</a>
+        <a href="services.html">Наши Услуги</a>
+        <a href="projects.html">Проекты</a>
+        <a href="jobs.html">Вакансии</a>
+        <a href="letters.html">Рекомендательные письма</a>
+        <a href="doc.html">Документы и лицензии</a>
+        <a href="rec.html" style="color: #fff">Реквизиты</a>
+        <a href="contact.html" style="color: #fff">Контакты</a>
+    </div>
+    <div id="vac" class="gray-background">\
+        <br>
+        <br>
+        <h2 style="color: #000">Вакансии</h2>
+        <br>
+        <div class="image-grid">
+            <img src="electro.jpg" alt="Electro Image" class="grid-image">
+            <img src="svarka.jpg" alt="Svarka Image" class="grid-image">
+            <img src="sbor.jpg" alt="Sbor Image" class="grid-image">
+        </div>
+        <!-- Containers with headings and paragraphs -->
+        <div class="vacancy-grid">
+            <div class="vacancy-container">
+                <h3>Электромонтажник</h3>
+                <p style="font-size: 20px">Электромонтажник судовой 3-4 разряд.</p>
+                <br>
+                <p style="font-size: 20px">от 130 000 Р</p>
+            </div>
+
+            <div class="vacancy-container">
+                <h3>Сварщик</h3>
+                <p style="font-size: 20px">Электрогазосварщик на рд и П/А (судостроение)</p>
+                <br>
+                <p style="font-size: 20px">от 150 000 Р</p>
+            </div>
+
+            <div class="vacancy-container">
+                <h3>Сборщик</h3>
+                <p style="font-size: 20px">Сборщик КМС (4 разряд, вахта с проживанием)</p>
+                <br>
+                <p style="font-size: 20px">120 000 - 160 000 Р</p>
+            </div>
+            <br>
+            <br>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </div>
+</body>
+</html>

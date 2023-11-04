@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+    <title>Услуги - ООО "ЭСМА"</title>
+    <style>
+        /* Add CSS styles for the hidden paragraphs and images */
+        body {
+            background-color: #000; /* Set black background color for the body */
+            color: #fff; /* Set text color to white */
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
+        }
+
+        .service-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Center the content horizontally */
+            text-align: center;
+            margin: 20px; /* Add margin to create space around the content */
+            background-color: #000; /* Set black background color */
+            padding: 20px; /* Add padding to the service sections */
+        }
+
+        .service-content img {
+            max-width: 1000px; /* Adjust the maximum width to make the images smaller */
+            height: auto; /* Maintain aspect ratio */
+            display: block; /* Show the images by default */
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: space-between; /* Space the images horizontally */
+            width: 100%; /* Full width for the container */
+            max-width: 1000px; /* Adjust as needed */
+            margin: 0 auto; /* Center the container horizontally */
+        }
+
+        .image-container img {
+            width: 48%; /* Set the width for each image (adjust as needed) */
+        }
+
+        .image-container2 {
+            display: flex;
+            justify-content: space-between; /* Space the images horizontally */
+            width: 100%; /* Full width for the container */
+            max-width: 1000px; /* Adjust as needed */
+            margin: 0 auto; /* Center the container horizontally */
+        }
+
+        .image-container2 img {
+            width: 400px; /* Adjust the width as needed */
+            height: auto; /* To maintain the aspect ratio */
+        }
+
+        .service-content2 img {
+            max-width: 1000px; /* Adjust the maximum width to make the images smaller */
+            height: 500px; /* Maintain aspect ratio */
+            display: block; /* Show the images by default */
+        }
+
+        /* Add style for the white background section */
+        .white-background {
+            background-color: #fff;
+            color: #000; /* Set text color to black */
+            padding: 20px; /* Adjust the padding as needed */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="index.html">Добро Пожаловать</a>
+        <a href="about.html">О нас</a>
+        <a href="services.html">Наши Услуги</a>
+        <a href="projects.html">Проекты</a>
+        <a href="jobs.html">Вакансии</a>
+        <a href="letters.html">Рекомендательные письма</a>
+        <a href="doc.html">Документы и лицензии</a>
+        <a href="rec.html">Реквизиты</a>
+        <a href="contact.html">Контакты</a>
+    </div>
+    <div id="ser" class="white-background">
+        <br>
+        <br>
+        <h2 style="color: #000">Наши услуги</h2>
+        <div style="display: flex; flex-direction: row; justify-content: center;">
+            <div class="service-section rounded-container" style="display: flex; flex-direction: row; flex-basis: 50%;">
+                <div class="image-container2" style="order: 1;">
+                    <img id="svarka-image" src="svarka.jpg" alt="Service 1 Background">
+                </div>
+                <div class="service-content2" style="order: 2;">
+                    <h2 class="white-text">Электросварочные работы</h2>
+                    <p class="white-text">Мы специализируемся в электросварочных работах, включая ручную сварку феррита и аустенита, полуавтоматическую сварку порошком и сплошным материалом. Наши профессионалы также обладают опытом аргонодуговой сварки для корпусов и труб из стали и нержавейки.</p>
+                </div>
+            </div>
+        </div>
+
+        <div style="display: flex; flex-direction: row;">
+            <div class="service-section rounded-container" style="display: flex; flex-direction: row; width: 50%;">
+                <div class="image-container2" style="order: 2;">
+                    <img id="sbor-image" src="sbor.jpg" alt="Service 2 Background">
+                </div>
+                <div class="service-content2" style="order: 1;">
+                    <h2 class="white-text">Сборочные работы</h2>
+                    <p class="white-text">Мы осуществляем сборочные работы с использованием различных материалов, включая сталь, алюминий и нержавеющую сталь. Наша команда гарантирует высокую точность и надежность в каждом сборочном процессе.</p>
+                </div>
+            </div>
+            <div class="service-section rounded-container" style="display: flex; flex-direction: row; width: 50%;">
+                <div class="image-container2" style="order: 1;">
+                    <img id="malar-image" src="malar.jpg" alt="Service 2 Background">
+                </div>
+                <div class="service-content2" style="order: 2;">
+                    <h2 class="white-text">Малярные работы</h2>
+                    <p class="white-text">Малярные работы важны для защиты и отделки различных поверхностей на судах и кораблях. Мы выполняем малярные работы, обеспечивая сохранность и привлекательный внешний вид ваших конструкций.</p>
+                </div>
+            </div>
+        </div>
+        <div style="display: flex; flex-direction: row;">
+            <div class="service-section rounded-container" style="display: flex; flex-direction: row; width: 50%;">
+                <div class="image-container2" style="order: 2;">
+                    <img id="electro-image" src="electro.jpg" alt="Service 2 Background">
+                </div>
+                <div class="service-content2" style="order: 1;">
+                    <h2 class="white-text">Электромонтажные работы</h2>
+                    <p class="white-text">Мы предоставляем услуги по электромонтажным работам, обеспечивая эффективную электрическую инфраструктуру на судах. Наши специалисты выполняют установку и обслуживание электрических систем с высоким уровнем профессионализма.</p>
+                </div>
+            </div>
+            <div class="service-section rounded-container" style="display: flex; flex-direction: row; width: 50%;">
+                <div class="image-container2" style="order: 1;">
+                    <img id="trubo-image" src="trubo.jpg" alt="Service 2 Background">
+                </div>
+                <div class="service-content2" style="order: 2;">
+                    <h2 class="white-text">Трубопроводы</h2>
+                    <p class="white-text">Мы специализируемся в установке и обслуживании трубопроводных систем, включая системы судовых реакторов. Наши услуги охватывают разнообразные типы систем, обеспечивая безопасность и эффективную работу ваших судов.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
